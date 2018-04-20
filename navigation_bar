@@ -1,0 +1,52 @@
+<html>
+<style>
+#qlip-nav-button{
+  font-style:monospace;
+  font-size:50px;
+  transform: scale(.5, 1);
+  margin:auto;
+  
+}
+
+#qlip-button{
+  float:left;
+  
+}
+
+ul{
+  width:100%;
+  height:auto;
+  background-color:purple; 
+  overflow: auto;
+  list-style-type:none;
+  display:inline-block;
+  
+}
+ul li{
+  float:right;
+  
+}
+
+.btn{
+  background-color:purple;
+  color:grey;
+  margin-top:20px;
+}
+.btn:hover{
+  opacity:0.8;
+}
+
+</style>
+<head></head>
+<body>
+
+  <ul>
+    <li class="btn"><button>ABOUT</button></li>
+    <li><button class="btn">PORTFOLIO</button></li>
+    <li><button class="btn">CONTACT</button></li>
+    <li id="qlip-button"><button  class="btn" id="qlip-nav-button">qlip</button><li>
+  </ul>
+
+</body>
+
+</html>
